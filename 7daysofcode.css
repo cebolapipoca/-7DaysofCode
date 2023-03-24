@@ -1,0 +1,466 @@
+* {
+    margin: 0%;
+    height: 0%;
+    font-family: 'inter';
+}
+
+@font-face {
+    font-family: inter ;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+
+body {
+  
+}
+
+nav {
+    width:99.8%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  
+}
+
+/*Logo*/
+.logo  {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  
+   
+}
+
+.logo img {
+    width: 27px;
+    height: 26.99px;
+}
+/*Logo*/
+
+
+/*itens*/
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+ul li:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+/*itens*/
+
+.botoes {
+    margin-top: 14px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+.Cadastrarbutton {
+    width: 100px;
+    height: 40px;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8E2424;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.Entrarbutton {
+    width: 40px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+
+
+
+
+.seção1 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.seção1 h3 {
+    font-size: 1em;
+    color: #8E2424;
+    
+}
+
+.seção1 h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.seção1 p {
+    color: #667085;
+}
+
+
+
+.seção2 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seção2-container {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+}
+
+.seção2-container h1 {
+    font-size: 2.5em;
+    color: #8E2424;
+}
+
+.seção2-container h4 {
+    margin-top: 30px;
+}
+
+.seção2-container p {
+    font-size: 16px;
+    color: #667085;
+}
+
+.seção2-container div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.seção3 {
+    width: 80%;
+    height: 200vh;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+   
+}
+
+.seção3-container1 {
+   
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.seção3-container1 img {
+    width: 100%;
+    height: 50%;
+}
+
+.seção3-container1 p {
+    color: #8E2424;;
+    background-color: rgb(252, 242, 242) ;
+    border: 1px solid;
+    height: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    padding: 6px;
+    border-style: none;
+}
+
+.seção3-container1 h5 {
+    margin-bottom: 6vh;
+    font-size: 15px;
+    color: #667085;
+}
+
+
+
+
+.seção3-container2 {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    
+}
+
+.titulo {
+    width: 70%;
+    height: 4vh;
+   margin-left: 10px;
+   margin-top: 10px;
+   color: #101828;
+}
+
+.container1 {
+   width: 85%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.container1 p {
+    color: #667085;
+}
+
+.ProductDesigner {
+    width: 70%;
+    height: 13vh;
+    border: 1px solid;
+    border-color: #EAECF0;
+    border-radius: 10px;
+}
+
+.ContainerDesigner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+
+.textosContainer {
+    width: 60%;
+    height: 3vh;
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    
+   
+}
+
+.UxDesigner {
+    width: 70%;
+    height: 13vh;
+    border: 1px solid;
+    border-color: #EAECF0;
+    border-radius: 10px;
+}
+
+.ContainerUX {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.container2 {
+    width: 85%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.container2 p {
+    color: #667085;
+}
+
+.DesenvolvedorIOS {
+    width: 70%;
+    height: 13vh;
+    border: 1px solid;
+    border-color: #EAECF0;
+    border-radius: 10px;
+}
+
+.containerDesenvolvedorIOS {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.DesenvolvedorFront {
+    width: 70%;
+    height: 13vh;
+    border: 1px solid;
+    border-color: #EAECF0;
+    border-radius: 10px;
+}
+
+.containerDesenvolvedorFront {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.DesenvolvedorBack {
+    width: 70%;
+    height: 13vh;
+    border: 1px solid;
+    border-color: #EAECF0;
+    border-radius: 10px;
+}
+
+.containerDesenvolvedorBack {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.seção4 {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    left: 0%;
+    top: 325%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.containerseção4 {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(248, 239, 239) ;
+}
+
+.bloco1 {
+    width: 80%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    align-items: center;
+}
+
+.bloco1 h6 {
+    font-size: 14px;
+    color: #8E2424;
+}
+
+.bloco p {
+    color: #101828;
+}
+
+.bloco2 {
+    width: 80%;
+    height: 15vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.bloco2 img {
+    width: 33px;
+    height: 32.99px;
+}
+
+.bloco2 .aaa {
+    color: #7a8499;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    left: 0%;
+    top: 397%;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    color: #98A2B3;
+}
+
+.footercontainer {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.footercontainer h3 {
+    font-size: 17px;
+    color: #a1abc2;
+}
+
+.footercontainer input {
+    width: 18vw;
+    height: 4vh;
+    padding-left: 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid;
+    border-color: #dadce0;
+
+}
+
+.footercontainer button {
+    width: 7vw;
+    height: 5vh;
+    background-color: #8E2424;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cadastrar {
+    display: flex;
+    gap: 15px;
+}
